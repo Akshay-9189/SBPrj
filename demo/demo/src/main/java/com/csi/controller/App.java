@@ -12,4 +12,9 @@ public class App {
     public String sayHello(){
         return "Welcome";
     }
+
+    @GetMapping("/s")
+    public String servicesF(){
+        return "Java";
+    }
 }
